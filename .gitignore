@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (too large, keep out of repo)
+*.zip
+*.tar
+*.tar.gz
+*.pt
+*.pth
+*.ckpt
+*.bin
+checkpoints/
+data/raw/
+data/processed/
+data/cityscapes/
+data/minecraft_world/
+
+# Allow the example dataset zip explicitly
+!data/example_dataset.zip
+
+# Logs and outputs
+*.log
+runs/
+wandb/
+outputs/
+
+# OS / editor
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+*.swp
+Thumbs.db
