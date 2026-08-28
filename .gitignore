@@ -43,3 +43,7 @@ __MACOSX/
 .vscode/
 *.swp
 Thumbs.db
+# Local artefacts
+.mypy_cache/
+segmentation_pack/
+classification_log.txt

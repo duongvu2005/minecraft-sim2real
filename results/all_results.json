@@ -1,0 +1,57 @@
+{
+  "source": "Colab A100 run of 2026-05-06; the numbers the report was written from.",
+  "class_names": [
+    "road",
+    "structure",
+    "vegetation",
+    "sky"
+  ],
+  "eval_resolution": [
+    1024,
+    512
+  ],
+  "n_cityscapes_images": 500,
+  "minecraft_val": {
+    "n_images": 30,
+    "best_epoch": 36,
+    "miou": 0.9137440919876099,
+    "per_class_iou": [
+      0.9130513668060303,
+      0.8720415234565735,
+      0.9319554567337036,
+      0.9379280209541321
+    ]
+  },
+  "cityscapes": {
+    "miou": 0.4525628089904785,
+    "per_class_iou": [
+      0.3607180714607239,
+      0.4358501136302948,
+      0.4081549644470215,
+      0.6055279970169067
+    ],
+    "per_class_acc": [
+      0.37151422888064417,
+      0.9571617318402552,
+      0.41345214127949026,
+      0.6608991044651674
+    ]
+  },
+  "baseline_ade20k": {
+    "miou": 0.9031358957290649,
+    "per_class_iou": [
+      0.9682378768920898,
+      0.8711009621620178,
+      0.8707891702651978,
+      0.9024156332015991
+    ],
+    "per_class_acc": [
+      0.9991662632985785,
+      0.9403895143394155,
+      0.8839878412806477,
+      0.9648219873765715
+    ],
+    "coverage": 0.9246414977983162,
+    "coverage_note": "fraction of labelled Cityscapes pixels on which the baseline made a mappable prediction and was therefore scored; the remainder is excluded from its IoU but not from ours."
+  }
+}
